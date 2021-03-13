@@ -46,6 +46,7 @@ for harf in kullanici_adi:
     print(harf)
     if harf in tr_harfler:
         print("Kullanici adinda turkce karakter kullanmayiniz..!")
+        break;
 
 
 for yaz in range(1,50):
