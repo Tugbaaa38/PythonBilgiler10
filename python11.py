@@ -49,6 +49,18 @@ for harf in kullanici_adi:
         break;
 
 
+
 for yaz in range(1,50):
+    if yaz==5:
+        continue
+    print(yaz)
+    
+    #burada continue asagi satira inmeden basa don ve devam et demektir.Yani bu kod 5 disindaki 50 ye kadar olan
+    #sayilari yazarken 5 i yazmayacak.
+
+for yaz in range(1,50):
+    if yaz==5:
+        break
     print(yaz)
 
+    #break: 5 i gorene kadar tum sayilar yazilacak 5 i gorunce break  donguyu kirip donguden cikacak..
